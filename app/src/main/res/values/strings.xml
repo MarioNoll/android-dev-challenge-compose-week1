@@ -10,4 +10,13 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+
+    <string name="verified">Verified</string>
+    <string name="adopt_cta">ADOPT</string>
+    <string name="splash_title">Adopt Cartoon Pets</string>
+    <string name="splash_subtitle">Adopt a stray cartoon pet, come and give your love, we need your help.</string>
+    <string name="splash_start">START NOW</string>
+    <string name="pet_overview_title">Cartoon Pet Adoption</string>
+    <string name="pet_overview_favorite_filter">Filter favorites</string>
+    <string name="pet_description_title">Summary</string>
 </resources>

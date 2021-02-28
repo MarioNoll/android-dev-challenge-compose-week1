@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge.di
 
-import androidx.compose.ui.graphics.Color
+import com.example.androiddevchallenge.data.PetRepository
 
-val red500 = Color(0xFFF44336)
-val cyan700 = Color(0xFF00ACC1)
-val teal200 = Color(0xFF03DAC5)
-val teal400 = Color(0xFF009688)
-val grey_100 = Color(0xFFF5F5F5)
-val favorite = red500
+object Dependencies {
+
+    val petRepository by lazy {
+        PetRepository()
+    }
+}
